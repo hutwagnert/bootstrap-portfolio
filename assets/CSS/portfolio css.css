@@ -73,12 +73,17 @@ body{
 
 /*portfolio*/
 
-
-.portfolio {
+#portfolio-id .row{
+    width:80%;
+    margin:0 10% 0 10%;
+}
+.portfolio-container-1{
     margin: 100px 0 200px 0;
     padding: 0 0 0 0;
     background-color:#fff;
     position:relative;
+    width:80%;
+
     
 }
 .portfolio-title {
@@ -231,4 +236,19 @@ body{
 .navbar-dark{
     
     height: 60px;
+}
+@media only screen and (max-width: 990px) {
+    #portfolio-id .row{
+        width:100%;
+        Margin: 0 0 0 0;
+    }
+    .portfolio-container-1{
+        margin: 100px 0 200px 0;
+        padding: 0 0 0 0;
+        background-color:#fff;
+        position:relative;
+        width:100%;
+    
+        
+    }
 }
