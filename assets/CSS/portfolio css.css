@@ -140,6 +140,22 @@ body{
     
 
 }
+.project-three {
+    background-image:url("../images/cat2.jpg");
+    width: 240px;
+    height:240px;
+    margin: 30px 30px 30px 30px;
+    background-size:cover;
+
+}
+.project-three-title {
+    background-color:#11847e;
+    color:#fff;
+    font-size:16px;
+    font-weight:200;
+    width:240;
+    height:40px;
+}
 .project-four {
     background-image:url("../images/cat3.jpg");
     width: 240px;
@@ -150,6 +166,16 @@ body{
 }
 
 .project-four-title {
+    background-color:#11847e;
+    color:#fff;
+    font-size:16px;
+    font-weight:200;
+    width:240;
+    height:40px;
+    
+
+}
+.page-link {
     background-color:#11847e;
     color:#fff;
     font-size:16px;
