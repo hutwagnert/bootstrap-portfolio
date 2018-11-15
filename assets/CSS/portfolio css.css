@@ -6,68 +6,10 @@ body{
     }
 
 /*Main Header*/
-
-.main-header {
-    background-color: #FFF;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    padding:0 0 0 0;
-    margin:0 0 0 0;
-    z-index:1;
-
-}
-.your-name {
-    float: left;
-    height:60px;
-    background-color:#11847e;
-    color:#FFF;
-}
-.your-name h1{
-    vertical-align: 50%;
-    font-size: 25px;
-    line-height: 1.1;
-    font-weight:500;
-}
-
-.header-line {
-    position:fixed;
-    top:60px;
-    z-index:1;
-    width:100%;
-    height:3px;
-    background-color:#c3c5c9;
-}
-.header-links {
-
-    height:60px;
-}
-.header-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-    color:#c3c5c9;
-}
-
-.header-links ul li {
-    float: left;
-    height:60px;
-}
-
-.header-links ul li a {
-    display: block;
-    height: 60px;
-    color: #41464B;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.header-links ul li a:hover {
+.navbar-nav li a:hover {
     background-color: #11847e;
     color:#fff;
+    
 
 }
 
@@ -80,6 +22,8 @@ body{
 .portfolio-container-1{
     margin: 100px 0 200px 0;
     padding: 0 0 0 0;
+    border-radius: 25px;
+    border: 10px solid #b2dfdb ;
     background-color:#fff;
     position:relative;
     width:80%;
@@ -98,83 +42,85 @@ body{
     width:100%;
 
 }
-
+.project-holder {
+    padding: 0 0 0 0;
+    margin-top:30px;
+    margin-bottom:30px;
+}
 .project-one {
     background-image:url("../images/cat1.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
     
     
 
     
 }
-.project-one-title {
+.project-title {
     background-color:#11847e;
     color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
+   position: relative;
+   top:160px;
+    width:234px;
     height:40px;
     
 
 }
+.project-title h3{
+    font-size:18px;
+    font-weight:200;
+    margin:0 auto 0 auto;
+    text-align: center;
+   
+}
+
 
 .project-two {
     background-image:url("../images/cat2.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
 
 }
 
-.project-two-title {
-    background-color:#11847e;
-    color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
-    height:40px;
-    
 
-}
 .project-three {
     background-image:url("../images/cat2.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
 
 }
-.project-three-title {
-    background-color:#11847e;
-    color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
-    height:40px;
-}
+
 .project-four {
     background-image:url("../images/cat3.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
 
 }
 
-.project-four-title {
-    background-color:#11847e;
-    color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
-    height:40px;
-    
-
-}
 .page-link {
     background-color:#11847e;
     color:#fff;
@@ -189,44 +135,37 @@ body{
     background-image:url("../images/cat4.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
 
 }
-.project-five-title {
-    background-color:#11847e;
-    color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
-    height:40px;
-    
 
-}
 
 .project-seven {
     background-image:url("../images/cat5.jpg");
     width: 240px;
     height:240px;
-    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+    border: 3px solid #4a5e5c;
     background-size:cover;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
 
 }
 
-.project-seven-title {
-    background-color:#11847e;
-    color:#fff;
-    font-size:16px;
-    font-weight:200;
-    width:240;
-    height:40px;
-    
 
-}
 
 /* footer*/
-
+.footer {
+    z-index: 10;
+}
 .footer-line    {
+    z-index: 10;
     position:fixed;
     bottom:60px;
     width:100%;
@@ -234,6 +173,7 @@ body{
     background-color: #11847e;
 }
 .main-footer    {
+    z-index: 11;
     position:fixed;
     bottom:0px;
     width: 100%;
@@ -241,27 +181,41 @@ body{
     background-color:#41464B;
 }
 .main-footer h3 {
+    z-index: 12;
     font-size:10px;
     font-weight: 100;
     color:#fff;
-    padding:35px 0 0 0;
+    
     text-align: center;
 
 }
 /* navbar  */
 
-.navbar-wrapper {
-    padding:0 0 0 0;
-    
-    width:100%;
-    position: relative;
-    right:0;
-    left:0;
 
-}
-.navbar-dark{
+.navbar {
+    background-color: #11847e;
+    color:black;
+    position: fixed;
+    top:0;
+    z-index: 4;
     
-    height: 60px;
+}
+.navbar-toggler{
+    margin:10px;
+}
+.header-name {
+    margin-right:10px;
+    color:#fff;
+    text-align: center;
+}
+
+.nav-item { 
+    height:54px;
+    padding:0 10px 0 10px;
+}
+.nav-link {
+    height:54px;
+   
 }
 @media only screen and (max-width: 990px) {
     #portfolio-id .row{
