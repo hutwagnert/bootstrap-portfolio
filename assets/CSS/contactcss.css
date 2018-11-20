@@ -97,3 +97,43 @@ body{
     height:54px;
    
 }
+.link-email{
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+.resume-button {
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    margin: 50px auto 50px auto;
+}
+.link-button {
+    position: relative;
+    left:50%;
+    transform: translate(-50%); 
+    margin: 50px auto 50px auto;
+}
+
+
+.link-email:hover {
+    background-color: #11847e;
+    color:#fff;
+    
+
+}
+.resume-button:hover {
+    background-color: #11847e;
+    color:#fff;
+    
+
+}
+.link-button:hover {
+    background-color: #11847e;
+    color:#fff;
+    
+
+}
+

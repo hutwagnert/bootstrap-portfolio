@@ -10,3 +10,12 @@ window.open('https://hutwagnert.github.io/unit-4-game/');
 $(document).on("click",'.hangman', function() {
 window.open('https://hutwagnert.github.io/word-guess/word-guess.html');
  });
+
+ $(document).on("click",'.link-button', function() {
+  window.open('https://www.linkedin.com/in/tate-hutwagner-b50826131/');
+    });
+$(document).on("click",'.resume-button', function() {
+  window.open('../bootstrap-portfolio/assets/thcv.pdf','_blank');
+    });
+
+    
